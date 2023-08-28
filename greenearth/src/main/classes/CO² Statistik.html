@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #2b993d;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:#2b993d;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CO² Statistik</h1>
+  <img src="./com/greenearth/Bilder/umweltschutzvektorillustration-auf-weiß-29967398.jpg" style="height:100px;">
+</div>
+<style>
+    table#foobar-table thead {
+     position: sticky;
+    }
+    
+    table#foobar-table thead {
+     inset-block-start: 0;
+    }
+    
+    table#foobar-table,
+    table#foobar-table > thead > tr > th,
+    table#foobar-table > tbody > tr > td {
+     border: Solid 1px #888888;
+     padding: 5px;
+     color: #000000;
+    }
+    
+    table#foobar-table > thead > tr {
+     background-color: #2b993d;
+    }
+    
+    table#foobar-table > tbody > tr:nth-child(even) {
+     background-color: #FFFFFF;
+    }
+    
+    table#foobar-table > tbody > tr:nth-child(odd) {
+     background-color: #38ca517e;
+    }
+    
+    #foobar-table,
+    p#eingabe {
+     margin-left: 50px;
+    }
+    </style>
+    <center>
+    <p id="eingabe">
+     <label>Filter: <input type="search" class="filter-table" data-for="#foobar-table" autofocus="autofocus"></label>
+    </p>
+    
+    <table id="foobar-table">
+    <thead>
+    
+     <tr>
+      <th>Nr.</th>
+      <th>Vorname</th>
+      <th>Name</th>
+      <th>Alter</th>
+     </tr>
+    
+    </thead>
+    <tbody>
+    
+     <tr>
+        <td>1</td>
+        <td>EcoTech Solutions</td>
+        <td>USA</td>
+        <td>500</td>
+       </tr>
+      
+       <tr>
+        <td>2</td>
+        <td>GreenEnergy Inc</td>
+        <td>Kanada</td>
+        <td>800</td>
+       </tr>
+      
+       <tr>
+        <td>3</td>
+        <td>CleanAir Manufacturing </td>
+        <td>Deutschland</td>
+        <td>350</td>
+       </tr>
+  
+       <tr>
+          <td>4</td>
+          <td>Sustainable Solutions Co.</td>
+          <td>Schweden</td>
+          <td>600</td>
+         </tr>
+  
+         <tr>
+          <td>5</td>
+          <td>EarthFriendly Industries  </td>
+          <td>Australien</td>
+          <td>400</td>
+         </tr>
+         <tr>
+  
+          <td>6</td>
+          <td>CarbonNeutral Corp. </td>
+          <td>Großbritannien</td>
+          <td>900</td>
+         </tr>
+      
+         <tr>
+          <td>7</td>
+          <td>RenewaTech Ltd. </td>
+          <td>Indien</td>
+          <td>550</td>
+         </tr>
+        
+         <tr>
+          <td>8</td>
+          <td>EcoSmart Innovations </td>
+          <td>Deutschland</td>
+          <td>300</td>
+         </tr>
+    
+         <tr>
+            <td>9</td>
+            <td>ClimateControl Systems</td>
+            <td>USA</td>
+            <td>700</td>
+           </tr>
+    
+           <tr>
+            <td>10</td>
+            <td>GreenTech Solutions  </td>
+            <td>Frankreich</td>
+            <td>450</td>
+           </tr>
+    
+            <tr>
+                <td>11</td>
+                <td>CleanEarth Manufacturin</td>
+                <td>Spanien</td>
+                <td>250</td>
+               </tr>
+              
+               <tr>
+                <td>12</td>
+                <td>Sustainable Energy Co.</td>
+                <td>Brasilien</td>
+                <td>750</td>
+               </tr>
+              
+               <tr>
+                <td>13</td>
+                <td>EarthSaver Industries</td>
+                <td>Australien</td>
+                <td>550</td>
+               </tr>
+          
+               <tr>
+                  <td>14</td>
+                  <td>CarbonZero Corp. </td>
+                  <td>Indonesien</td>
+                  <td>850</td>
+                 </tr>
+          
+                 <tr>
+                  <td>15</td>
+                  <td>RenewaPower Ltd.   </td>
+                  <td>China</td>
+                  <td>400</td>
+                 </tr>
+                 <tr>
+          
+                  <td>16</td>
+                  <td>EcoSolutions Innovations </td>
+                  <td>Spanien</td>
+                  <td>200</td>
+                 </tr>
+              
+                 <tr>
+                  <td>17</td>
+                  <td>ClimateFriendly Systems </td>
+                  <td>Norwegen</td>
+                  <td>600</td>
+                 </tr>
+                
+                 <tr>
+                  <td>18</td>
+                  <td>GreenPower Solutions </td>
+                  <td>China</td>
+                  <td>350</td>
+                 </tr>
+            
+                 <tr>
+                    <td>19</td>
+                    <td>CleanTech Manufacturing </td>
+                    <td>Indonesien</td>
+                    <td>700</td>
+                   </tr>
+            
+                   <tr>
+                    <td>20</td>
+                    <td>Sustainable Solutions Ltd.  </td>
+                    <td>USA</td>
+                    <td>450</td>
+                   </tr>
+                   <tr>
+    </tbody>
+    </table>
+    
+    <script>
+    // HTML-Tabelle filtern
+    
+    document.querySelectorAll(".filter-table").forEach(function (input) {
+      var table = document.querySelector(input.dataset.for);
+      var rows = table.querySelectorAll("tbody tr");
+      input.addEventListener("input", () => {
+        rows.forEach(function (tr) {
+          if (input.value.length > 0) {
+            if (input.value[0] == input.value[0].toUpperCase()) {
+              tr.hidden = !tr.textContent.includes(input.value);
+            } else {
+              tr.hidden = !tr.textContent.toLowerCase().includes(input.value.toLowerCase());
+            }
+          } else {
+            tr.hidden = !tr.textContent.includes(input.value);
+          }
+        });
+      });
+    });
+    </script>

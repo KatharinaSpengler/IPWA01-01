@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #2b993d;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  /* display: block; */
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:#2b993d;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<head>
+<meta charset="UTF-8"
+<meta http-equiv="Content-Security-Policy" content="default-src'self';script-src 'self'"
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<head>
+  <style>
+    .topnav {
+      display: flex;
+      justify-content: flex-start;
+    }
+    @media (max-width: 600px){
+      .topnav {
+        justify-content: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>GreenEarth gGmbH</h1>
+  <img src="./com/greenearth/Bilder/umweltschutzvektorillustration-auf-weiß-29967398.jpg" style="height:100px;">
+</div>
+
+<div class="topnav">
+  <a href="website.html">Home</a>
+  <a href="CO² Statistik.html">Co²-Statistik</a>
+  <a href="About.html">Über GreenEarth</a>
+  <a href="Kontakt.html">Kontakt</a>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>CO² Statistik</h2>
+      <h5>Bericht vom 31.08.2020</h5>
+     <center><img src="./com/greenearth/Bilder/Screenshot 2023-08-22 183659.png" style="height: 500px;"></center>
+      <br>
+    <center> <p>Anhand der Statistik kann man deutlich erkennen, dass die CO² Emissionen deutlich zurück gehen. Dies ist der Schritt in die richtige Richtung.
+        <br> 
+        <br>
+      Da die CO² Entwicklung enorme Auswirkungen auf unser globales Klima und auch auf die Gesundheit der Menschen hat. Diese Auswirkungen sind vielfältig, sie tragen 
+      zur globalen Erwärmung bei und können auch Auswirkungen auf die menschlichen Atemwege haben. </p></center> 
+    </div>
+    <div class="card">
+      <h2>CO² Emissionen in Europa und Deutschland 2019</h2>
+      <h5>Quelle: www.bdl.aero</h5>
+      <center><img src="./com/greenearth/Bilder/co2-emissionen-au-s-fossilen-brennstoffen-2022.png" style="height: 500px; position: relative;"></center>
+      <center><p>Die CO2-Emissionen sind ein wichtiger Indikator für den Beitrag von Ländern zur globalen Erwärmung und dem Klimawandel. 
+        Laut aktuellen Daten sind die weltweiten CO2-Emissionen in den letzten Jahrzehnten stark angestiegen. 
+        <br>
+        <br>
+        Die Hauptursache für diese Emissionen ist die Verbrennung fossiler Brennstoffe wie Kohle, Öl und Gas zur Energieerzeugung, Industrieprozessen und Transport. 
+        Einige Länder tragen mehr zur CO2-Emission bei als andere, wobei China, die USA und Indien zu den größten Emittenten gehören. Es gibt jedoch auch Bemühungen, die CO2-Emissionen 
+        zu reduzieren, indem erneuerbare Energien gefördert und energieeffiziente Technologien eingesetzt werden. </p></center>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Die Statistik soll veranschaulichen, dass sich etwas ändern muss.<h2>
+    <center><img src="./com/greenearth/Bilder/Screenshot 2023-08-25 154228.png" style="height: 200px;"</center>
+    <h2>Umweltschutz geht jeden etwas an! Hier wird ein Stand von 2015 abgebildet.</h2>
+    
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="./Kontakt.html">Kontakt</a>
+  <a href="./Impressum.html">Impressum</a> © 2023 by Katharina Spengler
+</div>
+
+</body>
+</html>

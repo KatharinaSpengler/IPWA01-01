@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #2b993d;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #2b993d;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-position: bottom;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Über die GreenEarth gGmbH</h2>
+</header>
+
+<section>
+<img src="./com/greenearth/Bilder/umweltschutzvektorillustration-auf-weiß-29967398.jpg" style="height: 300px;">
+  
+  <article>
+    <p style="font-family: Arial, Verdana"></p>
+  <center>  <p>Unser non-profit Unternehmen, GreenEarth gGmbH, wurde im Jahre 2023 mit dem Ziel gegründet, den Umweltschutz zu fördern und für die vorherrschenden Schwierigkeiten zu sensibilisieren. <p>
+      <p>Die Gründerin der GreenEarth gGmbH ist schon lange eine engagierte Umweltschützerin, sie erkannte bereits in jungen Jahren das zwingende Maßnahmen nötig sind um die Umweltbelastung zu minimieren und die Ressourcen des Planeten zu schützen.</p>
+      
+      <p>Seit der Gründung haben wir dauerhaft daran gearbeitet,das Bewusstsein für Umweltprobleme zu schaffen. Mit dieser Seite soll die Möglichkeit geboten werden, CO² Werte nach Unternehmen und nach Ländern zu filtern.</p>
+      <p> Als non-profit Unternehmen sind wir stolz darauf, dass jeder Euro, den wir erhalten, direkt in unsere Umweltschutzprojekte fließt. Wir sind bestrebt unseren Teil für den Umweltschutz beizutragen und uns am Markt zu etaplieren. So das wir mit anderen Unternehmen an innovativen Lösungen arbeiten können. Um eine nachhaltigere Zukunft für kommende Generationen zu schaffen.<p>
+      <p>GreenEarth ist fest davon überzeugt, dass jeder Einzelne einen Beitrag zum Umweltschutz leisten kann. Gemeinsam können wir eine Welt schaffen, in der Mensch und Natur im Einklang existieren.<p></center>
+  </article>
+</section>
+
+<footer>
+  <a href="./Kontakt.html">Kontakt</a>
+  <a href="./Impressum.html">Impressum</a> © 2023 by Katharina Spengler
+</footer>
+
+</body>
+</html>

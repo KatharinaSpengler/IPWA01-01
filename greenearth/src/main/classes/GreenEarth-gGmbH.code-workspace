@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Documents/GitHub/GreenEarth-gGmbH"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../target"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "target"
+	}
+}

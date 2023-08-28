@@ -1,0 +1,28 @@
+<svg height="0" width="0">
+	<defs>
+		<linearGradient id="verlaufVertikal" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="0%" stop-color="#c32e04"/>
+			<stop offset="100%" stop-color="#3983ab"/>
+		</linearGradient> 
+	</defs>	
+</svg>
+
+<header>
+	<a id="logo" href="index.html">Zurück zur Startseite</a>
+    <svg role="banner">
+	  	<text id="eins" fill="none" stroke="url(#verlaufVertikal)" x="0" y="69" >Design05</text>
+    </svg>
+<svg height="0" width="0">
+	<defs>
+		...
+  		<path id="tab-shape" d="M1,32 v-16 a20,16 0 0,1 20,-16 h60 a20,16 0 0,1 20,16 a20,16 0 0,0 20,16z" />
+	</defs>	
+</svg>
+ <li>
+      <a href="1-unterseite.html">
+        <svg viewBox="0 0 120 32">
+          <use xlink:href="#tab-shape"></use>
+        </svg>
+        <span>Unterseite</span>
+      </a>
+    </li>
